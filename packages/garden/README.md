@@ -18,6 +18,13 @@ __Disclaimer__ - This was the first thing I wrote for HA (apart from the obligat
 __Weather sensors:__ I use SmartWeather and DarkSky weather sensors to provide the data for duration adjustments.
 
 Smart Weather is a custom component - https://github.com/briis/smartweather
+
+__lovelace UI custom stuff__ You will also need to add these for lovelace ui to display correctly:
+- [compact-custom-header](https://github.com/maykar/compact-custom-header)
+- [card-tools](https://github.com/thomasloven/card-tools)
+- [fold-entity-row](https://github.com/fold-entity-row/fold-entity-row)
+- [config-template-card](https://github.com/custom-cards/config-template-card)
+
   
 
 <h1>Here is how it looks in Lovelace</h1> 
