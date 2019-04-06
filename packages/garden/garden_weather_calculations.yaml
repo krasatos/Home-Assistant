@@ -169,7 +169,7 @@ script:
         data_template:
           entity_id: input_number.rain_3days_ratio
           value: >
-            {{ states.input_number.rain_3days_total.state | float / states.input_number.rainfall_threshold.state | float }}
+            {{ (states.input_number.rain_3days_total.state | float / states.input_number.rainfall_threshold.state | float) | round(2) }}
 
       # Make sure ratio is not greater than 1
       - service: input_number.set_value
